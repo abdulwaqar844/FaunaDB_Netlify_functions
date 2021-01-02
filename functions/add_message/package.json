@@ -1,0 +1,14 @@
+{
+  "name": "add_message",
+  "version": "1.0.0",
+  "description": "Testing",
+  "main": "add_message.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Waqar",
+  "license": "ISC",
+  "dependencies": {
+    "faunadb": "^4.0.0"
+  }
+}
