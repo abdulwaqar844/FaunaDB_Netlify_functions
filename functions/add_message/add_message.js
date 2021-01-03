@@ -16,7 +16,6 @@ try {
       { data: { detail:  messageBody.message} },
     )
   )
-  console.log(messageBody.messages)
   return {
     statusCode: 200,
       body: JSON.stringify({ message:  result.ref.id}),
