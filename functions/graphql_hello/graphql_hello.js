@@ -1,15 +1,13 @@
 const { ApolloServer, gql } = require("apollo-server-lambda");
-
 const typeDefs = gql`
   type Query {
     message: String
   }
 `;
-
 const resolvers = {
   Query: {
     message: (parent, args, context) => {
-      return "Hello, world from Zia!";
+      return "Hello, world from Waqar!";
     }
   }
 };
